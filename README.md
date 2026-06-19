@@ -3,7 +3,7 @@
 Local Agent-Reach resource package for Snippets Code.
 
 - Plugin ID: `local-ai-agent-reach-runtime`
-- Version: `1.0.0`
+- Version: `2.0.0`
 - Agent-Reach package: `https://github.com/Panniantong/agent-reach/archive/main.zip`
 - mcporter package: `mcporter@0.9.0`
 - Node runtime: `node-runtime/node.exe`
