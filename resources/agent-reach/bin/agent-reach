@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+ROOT="$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)"
+PY="$ROOT/venv/bin/python"
+if [ ! -x "$PY" ]; then
+  PY="$ROOT/venv/Scripts/python.exe"
+fi
+exec "$PY" -c "from agent_reach.cli import main; main()" "$@"

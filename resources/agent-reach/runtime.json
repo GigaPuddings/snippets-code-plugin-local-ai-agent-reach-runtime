@@ -1,0 +1,7 @@
+{
+  "agentReachPackage": "https://github.com/Panniantong/agent-reach/archive/main.zip",
+  "builtAt": "2026-06-19T01:26:47.938Z",
+  "entry": "bin/agent-reach.cmd",
+  "mcporterPackage": "mcporter@0.9.0",
+  "mcporter": "bin/mcporter.cmd"
+}

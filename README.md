@@ -1,23 +1,14 @@
 # Local AI Agent-Reach Runtime
 
-Resource package for the `local-ai` plugin.
+Local Agent-Reach resource package for Snippets Code.
 
-This package is reserved for shipping the Agent-Reach internet capability
-runtime used by Local AI. The app first checks this installed resource package,
-then falls back to a managed app-data virtual environment if the packaged
-runtime is not present or not ready.
+- Plugin ID: `local-ai-agent-reach-runtime`
+- Version: `1.0.0`
+- Agent-Reach package: `https://github.com/Panniantong/agent-reach/archive/main.zip`
+- mcporter package: `mcporter@0.9.0`
+- Runtime path: `resources/agent-reach`
+- Entrypoint: `resources/agent-reach/bin/agent-reach.cmd`
+- Search backend: `bundled mcporter npm package`
 
-Expected runtime layout for packaged releases:
-
-```text
-local-ai-agent-reach-runtime/
-  plugin.json
-  resources/
-    agent-reach/
-      bin/
-        agent-reach(.exe)
-        mcporter(.exe)
-```
-
-The package is published as a resource dependency of `local-ai`, so marketplace
-installations can fetch it before users enable web access in Local AI chat.
+Run `pnpm agent-reach:release` to synchronize this built resource package to
+the official plugin repository and create the matching tag.
