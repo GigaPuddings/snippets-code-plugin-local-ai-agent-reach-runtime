@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "local-ai-agent-reach-runtime",
-  "version": "2.0.1",
+  "version": "2.0.3",
   "kind": "local",
   "name": {
     "i18nKey": "plugins.localAiAgentReachRuntime.name",
@@ -18,5 +18,5 @@
   "compatibleAppVersion": ">=2.1.22",
   "minAppVersion": "2.1.22",
   "repository": "https://github.com/GigaPuddings/snippets-code-plugin-local-ai-agent-reach-runtime",
-  "releaseUrl": "https://github.com/GigaPuddings/snippets-code-plugin-local-ai-agent-reach-runtime/releases/tag/2.0.1"
+  "releaseUrl": "https://github.com/GigaPuddings/snippets-code-plugin-local-ai-agent-reach-runtime/releases/tag/2.0.3"
 }
